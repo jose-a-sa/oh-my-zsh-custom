@@ -1,0 +1,7 @@
+#!/bin/bash
+
+wget -q --spider http://www.msftncsi.com/ncsi.txt >/dev/null 2>&1 && echo -n 1 || echo -n 0
+
+#wget -q --spider http://www.google.com >/dev/null 2>&1 && echo -n 1 || echo -n 0
+
+#ping -c 1 "www.msftncsi.com" >/dev/null 2>&1 && echo -n 1 || echo -n 0
